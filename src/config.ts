@@ -1,0 +1,1 @@
+export const baseUrl: string = 'http://mapi.winnshier.cn'

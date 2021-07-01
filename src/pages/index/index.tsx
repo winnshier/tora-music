@@ -1,8 +1,12 @@
 import { Component } from 'react'
 import { connect } from 'react-redux'
 import { View, Button, Text } from '@tarojs/components'
+import { AtButton } from 'taro-ui'
+
 
 import { add, minus, asyncAdd } from '../../actions/counter'
+
+import http from '../../utils/request'
 
 import './index.scss'
 
@@ -58,7 +62,12 @@ class Index extends Component {
 
   componentWillUnmount () { }
 
-  componentDidShow () { }
+  componentDidShow () {
+    http.get('/search/hot/detail').then((res) => {
+      console.log(res);
+      
+    })
+   }
 
   componentDidHide () { }
 
@@ -70,6 +79,7 @@ class Index extends Component {
         <Button className='dec_btn' onClick={this.props.asyncAdd}>async</Button>
         <View><Text>{this.props.counter.num}</Text></View>
         <View><Text>Hello, World</Text></View>
+        <AtButton type='primary'>按钮文案</AtButton>
       </View>
     )
   }

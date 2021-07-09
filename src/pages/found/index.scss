@@ -1,4 +1,29 @@
-.index {
-  flex-direction: column;
+.swiper-block {
+  height: 250px;
+}
+.newsong {
   width: 100%;
+  height: 100%;
+  .newsong-item {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    .item-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+    }
+    .type-title {
+      position: absolute;
+      right: 30px;
+      bottom: 0;
+      padding: 8px 15px;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      font-size: 24px;
+      line-height: 30px;
+      color: #fff;
+    }
+  }
 }

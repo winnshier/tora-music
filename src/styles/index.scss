@@ -1,0 +1,218 @@
+.page {
+  padding: 0 30px;
+}
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+.tr180 {
+  transform:rotate(180deg)
+}
+.p-r {
+  position: relative;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+
+.br30 {
+  border-radius: 30px;
+}
+
+.bgc-w {
+  background-color: #fff !important;
+}
+.bgc-ctc {
+  background-color: $themeColor !important;
+}
+.bold {
+  font-weight: bold !important;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.fs20 {
+  font-size: 20px !important;
+}
+.fs22 {
+  font-size: 22px !important;
+}
+.fs24 {
+  font-size: 24px;
+}
+.fs26 {
+  font-size: 26px;
+}
+.fs28 {
+  font-size: 28px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fs32 {
+  font-size: 32px !important;
+}
+.fs34 {
+  font-size: 34px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.ml5 {
+  margin-left: 5px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.ml15 {
+  margin-left: 15px;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.ml24 {
+  margin-left: 24px !important;
+}
+.ml30 {
+  margin-left: 30px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.ml40 {
+  margin-left: 40px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+
+// 主题色
+.ctc {
+  color: $themeColor;
+}
+.ce40 {
+  color: #E40202;
+}
+.cfff {
+  color: #fff;
+}
+.c6f8 {
+  color: #6F839C;
+}
+.c478 {
+  color: #478AFF;
+}
+.cf2f {
+  color: #F2F3F8;
+}
+.cec0 {
+  color: #ec0000 !important;
+}
+.c333 {
+  color: #333;
+}
+.ce1e {
+  color: #E1E1E1;
+}
+.c657 {
+  color: #65788D;
+}
+.c546 {
+  color: #546FE5;
+}
+.c002 {
+  color: #002242;
+}
+.cbbb {
+  color: #bbb;
+}
+.c999 {
+  color: #999;
+}
+.cdfd {
+  color: #DFDFDF;
+}
+.ccdc {
+  color: #CDCDCD;
+}
+.caab {
+  color: #AAB2B9;
+}
+.cff1 {
+  color: #FF1313;
+}
+.cc0c {
+  color: #C0C4CC;
+}
+.c52c {
+  color: #52C41A;
+}
+.cff0 {
+  color: #FF0E0E;
+}
+.c666 {
+  color: #666;
+}
+.hover-c:hover {
+  color: #ECA603;
+}
+.ml16 {
+  margin-left: 16px;
+}
+
+.iconfont{
+  font-family: "iconfont" !important;
+  font-size :24px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

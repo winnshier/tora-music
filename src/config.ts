@@ -1,1 +1,1 @@
-export const baseUrl: string = 'http://mapi.winnshier.cn'
+export const baseUrl: string = 'https://mapi.winnshier.cn'

@@ -34,10 +34,15 @@ function Found() {
   let scrollItem = recommendPlaylist.map(item => {
     return(
       <View className='item-block'>
-        <Image mode='scaleToFill' className='scroll-img' src={item.uiElement.image.imageUrl}></Image>
+        <Image className='scroll-img' src={item.uiElement.image.imageUrl}></Image>
         <View className='fs26 ellipsis2 sub-title c333'>{item.uiElement.mainTitle.title}</View>
-        <View>{util.getPlayCount(item.resources[0].resourceExtInfo.playCount)}</View>
-        <Text className='iconfont'>&#xe61e;</Text>
+        <View className='fsbc top-tip'>
+          <View></View>
+          <View className='tip-r fsc'>
+            <Text className='iconfont'>&#xe61e;</Text>
+            <Text>{util.getPlayCount(item.resources[0].resourceExtInfo.playCount)}</Text>
+          </View>
+        </View>
       </View>
     )
   })

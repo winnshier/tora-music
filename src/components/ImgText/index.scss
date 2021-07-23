@@ -1,0 +1,25 @@
+.item-block {
+  position: relative;
+  .scroll-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .sub-title {
+    width: 200px;
+  }
+  .top-tip {
+    position: absolute;
+    box-sizing: border-box;
+    top: 10px;
+    width: 200px;
+    padding: 0 10px;
+    .tip-r {
+      padding: 3px 10px;
+      background-color: rgba(0,0,0,0.2);
+      border-radius: 20px;
+      font-size: 20px;
+      color: #fff;
+    }
+  }
+}

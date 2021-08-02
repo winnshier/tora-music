@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "taro-muisc",
   "description": "音乐小程序",
-  "appid": "touristappid",
+  "appid": "wxf73cf4d134e31889",
   "setting": {
     "urlCheck": true,
     "es6": false,
